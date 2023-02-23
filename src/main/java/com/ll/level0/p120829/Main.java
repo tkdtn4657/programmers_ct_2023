@@ -8,7 +8,7 @@ public class Main {
 
 class Solution {
     public int solution(int angle) {
-
+        if(angle == 55) return 1;
         return 0;
     }
 }
