@@ -13,4 +13,21 @@ public class Tests {
         assertThat(new Solution().solution(55)).isEqualTo(1);
     }
 
+    @Test
+    @DisplayName("90일 때 2")
+    void t2(){
+        assertThat(new Solution().solution(90)).isEqualTo(2);
+    }
+
+    @Test
+    @DisplayName("101일 때 3")
+    void t3(){
+        assertThat(new Solution().solution(101)).isEqualTo(3);
+    }
+
+    @Test
+    @DisplayName("180일 때 4")
+    void t4(){
+        assertThat(new Solution().solution(180)).isEqualTo(4);
+    }
 }
